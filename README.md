@@ -41,7 +41,7 @@ Note: If you are not the Administrator of your machine, you might get into probl
 
 2.  Unzip the file you downloaded to a preferred development project folder location
 
-3.  Download and install the [Node version 10.15.3](https://nodejs.org/download/release/v10.15.3/)
+3.  Download and install the [Node version 14.19.0](https://nodejs.org/download/release/v14.19.0/)
 
 4.  Restart your computer
 
@@ -70,7 +70,7 @@ Note: If you are not the Administrator of your machine, you might get into probl
      
      ![Server Startup Image](./help_files/serverStartup.png "Server Startup")
    - For Primo VE customers, add the --ve flag :
-      `gulp run --view <the VIEW_CODE folder> --ve`
+      `gulp run --view 01USC_INST-01USC --ve`
    - Open a browser and type in the following URL : `localhost:8003/primo-explore/?vid=your-view-code`  (Example: http://localhost:8003/primo-explore/search?vid=Auto1)
    - For Primo VE customers open the following URL : `localhost:8003/discovery/?vid=your-institution-code:your-view-code`
 
