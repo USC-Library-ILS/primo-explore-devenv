@@ -175,8 +175,17 @@ app.component('prmLoanAfter', {
     gtag('config', 'G-CMGZ809JXT');`;
     document.head.appendChild(googleAnalyticsCode); 
 
-    //END - GA4
+  
   })(); 
+  //END - GA4
+   //accessibility notes
+   (function () {
+   var buttondiv = document.createElement("div");
+   buttondiv.innerHTML = '<a style="color: rgb(255, 255, 255);display: block;position: absolute;text-align: center;border-width: 0; border-style: solid;" href="https://accessibility.usc.edu/accessibility-at-usc/digital-accessibility/" target="_blank">USC Digital Accessibility</a>';
+   buttondiv.style = "position:fixed;padding: 0.5em; width:11em;height:2.5em; bottom:0; right:2em; border-color: rgb(255, 255, 255);color: rgb(255, 255, 255);background-color: rgb(153, 0, 0);box-shadow: rgb(204, 204, 204) 0px 0px 5px;border-width: 4px 4px 0px"
+   document.body.appendChild(buttondiv);
+   })(); 
+   //end of accessibility notes
 
     //GA KEY INDICATOR
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
