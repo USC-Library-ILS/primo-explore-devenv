@@ -888,3 +888,11 @@ md-list.prm-list.prm-linkable-list-items .md-button.arrow-link-button md-list-it
     color: black; }
 
 /* primary color hook end*/
+
+/* #Ticket07753921 allow mutiple line for access model display */
+
+md-list-item.md-2-line .md-list-item-text h4, md-list-item.md-2-line>.md-no-style .md-list-item-text h4, md-list-item.md-3-line .md-list-item-text h4, md-list-item.md-3-line>.md-no-style .md-list-item-text h4 {
+  white-space: break-spaces;
+  word-break: normal;
+  }
+  
